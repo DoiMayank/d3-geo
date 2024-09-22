@@ -19,8 +19,8 @@ var boundsStream = {
 };
 
 function boundsPoint(x, y) {
-  x = +x; // Coerce x to a number
-  y = +y; // Coerce y to a number
+  x = +x;
+  y = +y;
   if (x < x0) x0 = x;
   if (x > x1) x1 = x;
   if (y < y0) y0 = y;
